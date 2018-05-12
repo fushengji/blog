@@ -1,0 +1,32 @@
+site_name: 浮生记
+site_url: https://fushengji.github.io
+theme: 
+    name: 'material'
+    font:
+        text: 'Ubuntu'
+        code: 'Ubuntu Mono'
+    palette:
+        primary: 'cyan'
+        accent: 'indigo'
+
+repo_name: 'fushengji/fushengji'
+repo_url: 'https://github.com/fushengji/blog'
+
+extra:
+    disqus: 
+    social:
+      - type: 'github'
+        link: 'https://github.com/fushengji'
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: "¶"
+
+plugins:
+    - search
+
+pages:
+    - Home: 'index.md'
