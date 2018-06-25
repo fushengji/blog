@@ -3,7 +3,7 @@
         {
             "location": "/",
             "text": "Welcome to MkDocs\n\u00b6\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\u00b6\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Home"
+            "title": "Welcome to MkDocs"
         },
         {
             "location": "/#welcome-to-mkdocs",
@@ -19,6 +19,46 @@
             "location": "/#project-layout",
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
             "title": "Project layout"
+        },
+        {
+            "location": "/spacemacs/",
+            "text": "spacemacs \u5b89\u88c5\u53ca\u4f7f\u7528\n\u00b6\n\n\n\u5b89\u88c5\n\u00b6\n\n\n# \u5b89\u88c5emacs\n\nsudo apt install emacs\n\n# \u4e3agit \u914d\u7f6e\u4ee3\u7406\n\ngit config --global http.proxy http://127.0.0.1:12345\n\n# \u5b89\u88c5spacemacs\n\ngit clone https://github.com/syl20bnr/spacemacs ~/.emacs.d\n\n# \u5b89\u88c5source-code-pro\u5b57\u4f53\n\n\n[\n -d /usr/share/fonts/opentype \n]\n \n||\n sudo mkdir /usr/share/fonts/opentype\nsudo git clone --depth \n1\n --branch release https://github.com/adobe-fonts/source-code-pro.git /usr/share/fonts/opentype/scp\nsudo fc-cache -f -v\n\n# \u542f\u52a8emacs\u52a0\u8f7d\u914d\u7f6e\n\nemacs\n\n# \u66f4\u65b0\u63d2\u4ef6\u6e90\n\n\n# .spacemacs\u5185dotspacemacs/user-init()\n\n\n(\nsetq configuration-layer--elpa-archives\n    \n'\n((\n\"melpa-cn\"\n . \n\"http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/\"\n)\n\n      \n(\n\"org-cn\"\n   . \n\"http://mirrors.tuna.tsinghua.edu.cn/elpa/org/\"\n)\n\n      \n(\n\"gnu-cn\"\n   . \n\"http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/\"\n)))\n\n\n# emacsclient -t \u6a21\u5f0f\u4e0bstate-line\u6709\u4e9b\u5b57\u7b26\u663e\u793a\u4e0d\u5168\n\n\n# \u5b89\u88c5telephone line\n\n\n# ~/.spacemacs \u5728additional packages\u4e0b\u8bbe\u7f6e\u5305\n\n\n# user-config\u4e0b\u8bbe\u7f6e\u5176\u4ed6\n\n\n# C+q+R\u91cd\u542femacs\n\n\n\n# \u5b89\u88c5themes\n\n\n# emacs.d/themes\u4e0b\u653e\u7f6e\u4e3b\u9898\u6587\u4ef6\n\n\n# emacs.d/init.l\u8bbe\u7f6e\u81ea\u52a8\u52a0\u8f7dthemes\u76ee\u5f55\u548c\u76f8\u5173\u4e3b\u9898\n\n\n# emacs\u5185\u90e8M-x => load-theme => enable-theme \n\n\n\n\n\n\nlink:\n\n\n\n\nhttps://github.com/syl20bnr/spacemacs\n\n\nhttps://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116\n\n\nhttps://mirror.tuna.tsinghua.edu.cn/help/elpa/\n\n\nhttps://github.com/dbordak/telephone-line",
+            "title": "spacemacs \u5b89\u88c5\u53ca\u4f7f\u7528"
+        },
+        {
+            "location": "/spacemacs/#spacemacs",
+            "text": "",
+            "title": "spacemacs \u5b89\u88c5\u53ca\u4f7f\u7528"
+        },
+        {
+            "location": "/spacemacs/#_1",
+            "text": "# \u5b89\u88c5emacs \nsudo apt install emacs # \u4e3agit \u914d\u7f6e\u4ee3\u7406 \ngit config --global http.proxy http://127.0.0.1:12345 # \u5b89\u88c5spacemacs \ngit clone https://github.com/syl20bnr/spacemacs ~/.emacs.d # \u5b89\u88c5source-code-pro\u5b57\u4f53  [  -d /usr/share/fonts/opentype  ]   ||  sudo mkdir /usr/share/fonts/opentype\nsudo git clone --depth  1  --branch release https://github.com/adobe-fonts/source-code-pro.git /usr/share/fonts/opentype/scp\nsudo fc-cache -f -v # \u542f\u52a8emacs\u52a0\u8f7d\u914d\u7f6e \nemacs # \u66f4\u65b0\u63d2\u4ef6\u6e90  # .spacemacs\u5185dotspacemacs/user-init()  ( setq configuration-layer--elpa-archives\n     ' (( \"melpa-cn\"  .  \"http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/\" ) \n       ( \"org-cn\"    .  \"http://mirrors.tuna.tsinghua.edu.cn/elpa/org/\" ) \n       ( \"gnu-cn\"    .  \"http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/\" )))  # emacsclient -t \u6a21\u5f0f\u4e0bstate-line\u6709\u4e9b\u5b57\u7b26\u663e\u793a\u4e0d\u5168  # \u5b89\u88c5telephone line  # ~/.spacemacs \u5728additional packages\u4e0b\u8bbe\u7f6e\u5305  # user-config\u4e0b\u8bbe\u7f6e\u5176\u4ed6  # C+q+R\u91cd\u542femacs  # \u5b89\u88c5themes  # emacs.d/themes\u4e0b\u653e\u7f6e\u4e3b\u9898\u6587\u4ef6  # emacs.d/init.l\u8bbe\u7f6e\u81ea\u52a8\u52a0\u8f7dthemes\u76ee\u5f55\u548c\u76f8\u5173\u4e3b\u9898  # emacs\u5185\u90e8M-x => load-theme => enable-theme    link:   https://github.com/syl20bnr/spacemacs  https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116  https://mirror.tuna.tsinghua.edu.cn/help/elpa/  https://github.com/dbordak/telephone-line",
+            "title": "\u5b89\u88c5"
+        },
+        {
+            "location": "/Network_security/veracrypt4dummies/",
+            "text": "Veracrypt For Dummies\n\u00b6\n\n\n\u4ec0\u4e48\u662fveracrypt\n\u00b6\n\n\n\u4e00\u6b3e\n\u5f00\u6e90\n\u7684\u6587\u4ef6\u52a0\u5bc6\u7ec4\u4ef6\n\n\nveracraypt\u7b80\u8981\u4f7f\u7528\u6d41\u7a0b\n\u00b6\n\n\n\u5c06\u52a0\u5bc6\u6587\u4ef6\uff0c\u7f16\u7801\u6210\u4e00\u4e2a\u865a\u62df\u76d8\u7b26\uff0c\u5916\u754c\u65e0\u6cd5\u7aa5\u89c6\u91cc\u9762\u6709\u591a\u5c11\u5185\u5bb9\u3002\u6253\u5f00veracrypt\u8f6f\u4ef6\u6302\u8f7d\uff08mount\uff09\u52a0\u5bc6\u6587\u4ef6\uff0c\u8f93\u5165\u5bc6\u4ee4\u65b9\u53ef\u67e5\u770b\u5185\u5bb9\u3002\n\n\n\u52a0\u5bc6\u6587\u4ef6\u548c\u5bc6\u94a5\u7ec4\u6210\u5927\u81f4\u5982\u4e0b\uff1a\n\n\n\n\n\u52a0\u5bc6\u6587\u4ef6\n\n\n\u7269\u7406\u52a0\u5bc6\u76d8\uff08\u52a0\u5bc6\u5206\u533a\u3001\u5168\u76d8\u52a0\u5bc6\uff09\n\n\n\n\n\u865a\u62df\u52a0\u5bc6\u76d8\uff08\u5377\u6587\u4ef6\uff09\n\n\n\n\n\n\n\u5bc6\u94a5\n\n\n\n\n\u666e\u901a\u5bc6\u7801\n\n\nPIM\n\n\nkeyfiles\n\n\n\n\n\u600e\u4e48\u64cd\u4f5c\n\u00b6\n\n\nprogramming-think series:\n- \nTrueCrypt\u2014\u2014\u6587\u4ef6\u52a0\u5bc6\u7684\u6cd5\u5b9d\n\n-",
+            "title": "Veracrypt For Dummies"
+        },
+        {
+            "location": "/Network_security/veracrypt4dummies/#veracrypt-for-dummies",
+            "text": "",
+            "title": "Veracrypt For Dummies"
+        },
+        {
+            "location": "/Network_security/veracrypt4dummies/#veracrypt",
+            "text": "\u4e00\u6b3e \u5f00\u6e90 \u7684\u6587\u4ef6\u52a0\u5bc6\u7ec4\u4ef6",
+            "title": "\u4ec0\u4e48\u662fveracrypt"
+        },
+        {
+            "location": "/Network_security/veracrypt4dummies/#veracraypt",
+            "text": "\u5c06\u52a0\u5bc6\u6587\u4ef6\uff0c\u7f16\u7801\u6210\u4e00\u4e2a\u865a\u62df\u76d8\u7b26\uff0c\u5916\u754c\u65e0\u6cd5\u7aa5\u89c6\u91cc\u9762\u6709\u591a\u5c11\u5185\u5bb9\u3002\u6253\u5f00veracrypt\u8f6f\u4ef6\u6302\u8f7d\uff08mount\uff09\u52a0\u5bc6\u6587\u4ef6\uff0c\u8f93\u5165\u5bc6\u4ee4\u65b9\u53ef\u67e5\u770b\u5185\u5bb9\u3002  \u52a0\u5bc6\u6587\u4ef6\u548c\u5bc6\u94a5\u7ec4\u6210\u5927\u81f4\u5982\u4e0b\uff1a   \u52a0\u5bc6\u6587\u4ef6  \u7269\u7406\u52a0\u5bc6\u76d8\uff08\u52a0\u5bc6\u5206\u533a\u3001\u5168\u76d8\u52a0\u5bc6\uff09   \u865a\u62df\u52a0\u5bc6\u76d8\uff08\u5377\u6587\u4ef6\uff09    \u5bc6\u94a5   \u666e\u901a\u5bc6\u7801  PIM  keyfiles",
+            "title": "veracraypt\u7b80\u8981\u4f7f\u7528\u6d41\u7a0b"
+        },
+        {
+            "location": "/Network_security/veracrypt4dummies/#_1",
+            "text": "programming-think series:\n-  TrueCrypt\u2014\u2014\u6587\u4ef6\u52a0\u5bc6\u7684\u6cd5\u5b9d \n-",
+            "title": "\u600e\u4e48\u64cd\u4f5c"
         }
     ]
 }
