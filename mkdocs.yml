@@ -28,5 +28,3 @@ markdown_extensions:
 plugins:
     - search
 
-pages:
-    - Home: 'index.md'
